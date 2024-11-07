@@ -103,3 +103,20 @@ how a proof of concept and an API First mandate transformed our culture and led 
   - Apollo took specs from custom directives created by Wiz and they became the standard for future versions, be sure to communicate with your vendor!
 
 ## How American Airlines is self-servicing auth with @policy directive, OPA, Backstage and GitHub
+
+main challenge to `@requireScopes`
+
+1. Lack of Relialge Authorization
+1. Security Concerns
+1. Compliance Friction
+1. Reduced Developer Velocity
+
+using the `@policy` directive
+
+- allows custom authorization policies, via the co-processor
+
+- HotChocolate Federation Example/Course
+  https://www.apollographql.com/tutorials/federation-hotchocolate/01-intro-federation
+
+- How to feed the authorization co-processor
+  https://www.apollographql.com/docs/graphos/routing/customization/coprocessor#coprocessor-request-format
