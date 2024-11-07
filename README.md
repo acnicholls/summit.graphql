@@ -54,3 +54,25 @@ Introducing GraphOS!!
 - ![Query Planner Parts - Before Update](./images/Query-Planner-parts.png)
 - biggest reason for conversion from JS to Rust is transformation of data between the router (Rust) and the JS Query Planner
 - 2nd reason in memory usage and detecting memory used between the two processes
+
+## Fake it 'til You Build it : Navigating GraphQL Mocking Solutions
+
+- allows builders and consumers to collaborate and test experiments together
+- allows consumers to validate the contract by mocking data for all + edge case tests
+
+## OneGraph : Indeed as a Platform
+
+how a proof of concept and an API First mandate transformed our culture and led to OneGraph, which provides access to over **200 subgraphs** and serves **120B requests** per month
+
+- in the last 6 years have converted from mixed ecosystem to supergraph
+- step one was to add graph to each side of their API platform(s)/BFF
+- Easily incorporated another client application
+- built a lot of validation into build pipelines, etc.
+- brought in Apollo engineers to train in-house engineers in the migration to the graph way
+
+![Indeed Api Platform Then vs Now : Then](./images/Indeed_ApiPlatformThen.png)
+![Indeed Api Platform Then vs Now : Now](./images/Indeed_ApiPlatformNow.png)
+
+![Indeed Api Platform: Current Numbers](./images/Indeed_NumbersNow.png)
+
+## Apollo Language Server: The subgraph DX
