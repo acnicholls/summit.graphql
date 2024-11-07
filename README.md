@@ -74,11 +74,11 @@ how a proof of concept and an API First mandate transformed our culture and led 
 - built a lot of validation into build pipelines, etc.
 - brought in Apollo engineers to train in-house engineers in the migration to the graph way
 
-![Indeed Api Platform Then vs Now : Then](./images/Indeed_ApiPlatformThen.png){: width="50%"}
-![Indeed Api Platform Then vs Now : Now](./images/Indeed_ApiPlatformNow.png){: width="50%"}
-
-![Indeed Api Platform: Current Numbers](./images/Indeed_NumbersNow.png){: width="20%"}
-
+<img alt="Indeed Api Platform Then vs Now : Then" src="./images/Indeed_ApiPlatformThen.png" width="50%" />
+<img alt="Indeed Api Platform Then vs Now : Now" src="./images/Indeed_ApiPlatformNow.png"  width="50%" />
+<hr />
+<img alt="Indeed Api Platform: Current Numbers" src="./images/Indeed_NumbersNow.png"  width="20%" />
+<hr />
 ## Apollo Language Server: The subgraph DX
 
 - IDE Extensions for building the graph
