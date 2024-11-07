@@ -88,3 +88,18 @@ how a proof of concept and an API First mandate transformed our culture and led 
 - very detailed, uses intellisense style comments from the code to provide hints, etc.
 - built-in to Apollo products
 - aids learning federation due to auto-completion hints!!
+
+## Securing your GraphQL APIs with Apollo: Best practices for authentication and authorization
+
+- built-in to GraphOS
+- WIZ has integrated with GraphOS
+  - built custom RBAC
+  - uses JWT for authorization
+  - uses external service for AuthN
+  - multi-layer security (Zero-Trust) (AuthN/Federation/Microservice AuthN&AuthZ/Data Security (RLS))
+  - prevent DOS attacks by handling query-depth limits https://www.apollographql.com/docs/graphos/routing/security/demand-control
+  - schema validation - allow tests to check that sensitive data is redacted as expected, etc.
+  - persisted queries and whitelisting allow you to secure the API even more.
+  - Apollo took specs from custom directives created by Wiz and they became the standard for future versions, be sure to communicate with your vendor!
+
+## How American Airlines is self-servicing auth with @policy directive, OPA, Backstage and GitHub
