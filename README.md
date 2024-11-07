@@ -64,6 +64,10 @@ Introducing GraphOS!!
 
 how a proof of concept and an API First mandate transformed our culture and led to OneGraph, which provides access to over **200 subgraphs** and serves **120B requests** per month
 
+| Subgraphs | Requests/Month |
+| --------- | -------------- |
+| 200       | 120 Billion    |
+
 - in the last 6 years have converted from mixed ecosystem to supergraph
 - step one was to add graph to each side of their API platform(s)/BFF
 - Easily incorporated another client application
