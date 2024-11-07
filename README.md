@@ -46,3 +46,11 @@ Introducing GraphOS!!
 - No server required to have a graphql endpoint
 
 ## Introducing a native query planner in Apollo Router
+
+- comparison in Expedia - https://github.com/samuelAndalon/query-planner-service-comparison
+- 10x reduction in response times
+- 2.2 - 5.5x reduction in CPU usage
+- can see MASSIVE reduction in RAM usage (2.049 GB => 0.49 MB)
+- ![Query Planner Parts - Before Update](./images/Query-Planner-parts.png)
+- biggest reason for conversion from JS to Rust is transformation of data between the router (Rust) and the JS Query Planner
+- 2nd reason in memory usage and detecting memory used between the two processes
