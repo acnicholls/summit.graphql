@@ -64,24 +64,21 @@ Introducing GraphOS!!
 
 how a proof of concept and an API First mandate transformed our culture and led to OneGraph, which provides access to over **200 subgraphs** and serves **120B requests** per month
 
-<p align="center">
 | Subgraphs | Requests/Month |
 | --------- | -------------- |
 | 200       | 120 Billion    |
-</p>
 
 - in the last 6 years have converted from mixed ecosystem to supergraph
 - step one was to add graph to each side of their API platform(s)/BFF
 - Easily incorporated another client application
 - built a lot of validation into build pipelines, etc.
 - brought in Apollo engineers to train in-house engineers in the migration to the graph way
-<p align="center">
+
 ![Indeed Api Platform Then vs Now : Then](./images/Indeed_ApiPlatformThen.png | width=300)
 ![Indeed Api Platform Then vs Now : Now](./images/Indeed_ApiPlatformNow.png | width=300)
 
 ![Indeed Api Platform: Current Numbers](./images/Indeed_NumbersNow.png | width=200)
 
-</p>
 ## Apollo Language Server: The subgraph DX
 
 - IDE Extensions for building the graph
