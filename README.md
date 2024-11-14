@@ -6,7 +6,7 @@ My notes from the Apollo GraphQL Virtual Summit 2024
 
 - apollo is trying to bring graphql into the architecture, not replace other service types (REST, SOAP, etc...)
 - use graphql to coordinate how your other APIs are called
-- @connectors - new feature in apollo platform offerings
+- `@connectors` - new feature in apollo platform offerings
 - Apollo Language Server - schema validation/intellisense for GraphQL Schema and Queries
 - "Entity Caching" - DOW Jones saw 20-25% decrease in response time, 8-10x reduction in load on underlying services
 - "Demand Control" - can limit sub-graph calls based on costs. Tools exist to observe and monitor the query costs
@@ -18,8 +18,8 @@ My notes from the Apollo GraphQL Virtual Summit 2024
 
 - graphql can be an abstraction between UI and API, which helps integrations for NEW fragments of the graph, or seamless deployments
 - the conversion journey has challenges, but the overall benefits outweigh the cost of those challenges.
-- @router and @connector have transforms built right in.
-- @router - reduces the SDLC steps required
+- `@router` and `@connector` have transforms built right in.
+- `@router` - reduces the SDLC steps required
   ![SDLC Steps Reduction](./images/Endpoint-Creation-Steps-Reduction.png)
 
 ## What's new in Apollo Client
